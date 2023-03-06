@@ -1,0 +1,33 @@
+64 to 3D Drum Conversion Info
+
+On 3D, the notes are reverse. 
+See how on 64 when a drum sounds higher it goes up in key. 
+On 3D, the actual key to use goes down instead.
+
+Pitch, low to high:
+
+		Orchestra
+	64				3D
+
+cn4 -> fn6	=	ds5 -> as2		;3D doesn't have the notes higher than fn6 on 64
+
+	as3		=		an2			;Same instrument as previous, but for some reason on 3D is placed alone on an2
+
+an2 -> fn3	=	gs2 -> cn2		;64 has some more lower notes here, while 3DS has some higher.
+
+	cs2		=		en1			;Only one note has same pitch here. On 64 the rest go higher, while on 3D the rest go lower.
+
+cs1 -> an1	=	ds1 -> gn0		;On 64 the rest go deeper, but on 3D they mirror the other notes.
+
+
+
+	  Staff & Staff 2			(All others?)
+	64				3D
+
+cn4 -> fs6	=	ds5 -> an2		;One extra high note here on 3D than Orche.
+
+an2 -> fn3	=	gs2 -> cn2		;Same as Orchestra.
+
+	cs2		=		en1			;Same as Orchestra.
+
+cs1 -> an1	=	ds1 -> gn0		;Same as Orchestra.
