@@ -1,1 +1,4 @@
-&ÿU
+banks    = 0x07, 0x26, 0x1F, 0x14
+chFlags  = 0x07FF
+volume   = 0x55
+category = Area Themes
