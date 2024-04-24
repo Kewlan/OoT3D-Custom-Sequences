@@ -10,16 +10,13 @@ These sequences can be used both with and without the randomizer.
 On 3DS you can use godmode9. [Read the relevant "Extracting RomFS" section here for a how-to.](https://gist.github.com/PixelSergey/73d0a4bc1437dbaa53a1d1ce849fdda1)  
 On Citra, right click the game in the game list and select `Dump RomFS`.  
 The archive is found in the `sound` folder.
-3. Place the sequences together with their respective cmeta file in the folder representing the music category where you want them to be able to appear.  
+3. Place the custom sequences within the Custom Music folder. If you don't care about categorizing the songs yourself you can place the `Music` folder from this repository in the `Custom Music` folder in the SD card. Otherwise, place the sequences together with their respective cmeta file within the folder representing the music category where you want them to be able to appear.  
+A music category node is represented with an exclamation mark in the beginning. Placing the sequence there will allow it to appear in any of the child-folder nodes.  
 For example, if you want a song to be able to appear anywhere, you place it in the `/Background Music/` folder. If you want it to only be in dungeons, then you place it in `/Background Music/Area Themes/Dungeons/`. If it should only appear in the final Ganon fight, you place it in `/Background Music/Battle Themes/Ganon Battle/`, and so on.  
-**Important!** At the moment the music files need to be placed directly in the music category folders. Subfolders that weren't auto-generated are not looked through yet!
 4. Now they're ready to be shuffled. Remember to turn on the option!
 
 ### Vanilla
-You can use [Citric Composer](https://github.com/Gota7/Citric-Composer) to manually replace sequences. You will also need to look at the cmeta files to know which sound bank, channels flags, and volume it should have. 
-* The first four bytes are the sound banks. 
-* The next two are the channel flags in _little endian_. 
-* The seventh byte is the volume.
+You can use [Citric Composer](https://github.com/Gota7/Citric-Composer) to manually replace sequences. You will also need to look at the cmeta files to know which sound bank, channels flags, and volume it should have.  
 
 Once you're done and have the new sound archive, it will need to be placed in the mod folder like usual.
 
